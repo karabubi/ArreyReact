@@ -1,1 +1,78 @@
-/* Add your CSS here  */
+.app-container {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.filter-buttons {
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.filter-buttons button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.filter-buttons button:hover {
+  background-color: #f0f0f0;
+}
+
+.age-filter {
+  margin-bottom: 20px;
+}
+
+.age-filter input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.age-filter button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.age-filter button:hover {
+  background-color: #218838;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.user-card {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  width: 150px;
+}
+
+.user-card img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.user-card p {
+  margin: 5px 0;
+}
